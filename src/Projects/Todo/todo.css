@@ -1,0 +1,33 @@
+.button {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+.button:hover {
+  background-color: aliceblue;
+  color: cadetblue;
+}
+.center {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+.remove-style {
+  all: unset;
+  cursor: pointer;
+}
+.check {
+  text-decoration: line-through;
+}
+.not-check {
+  text-decoration: none;
+}
